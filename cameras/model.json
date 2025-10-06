@@ -1,0 +1,36 @@
+{
+ "@id": "dtmi:example:Telecamera;1",
+ "@type": "Interface",
+ "@context": "dtmi:dtdl:context;2",
+ "displayName": "Telecamera di Sorveglianza",
+ "contents": [
+  {
+   "@type": "Property",
+   "name": "telecamera_ID",
+   "schema": "string",
+   "displayName": "ID Telecamera",
+   "description": "ID Telecamera"
+  },
+  {
+   "@type": "Property",
+   "name": "location",
+   "schema": "string",
+   "displayName": "Posizione",
+   "description": "Posizione"
+  },
+  {
+   "@type": "Property",
+   "name": "status",
+   "schema": "string",
+   "displayName": "Stato Telecamera",
+   "description": "Può essere: Offline, Idle, Recording"
+  },
+  {
+   "@type": "Property",
+   "name": "uptime",
+   "schema": "double",
+   "displayName": "Tempo di attività (ore)",
+   "description": "Tempo di attività (ore)"
+  }
+ ]
+}

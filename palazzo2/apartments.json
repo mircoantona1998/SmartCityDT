@@ -1,0 +1,11 @@
+[
+  {
+    "deviceId": "appartamento2",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "BJVkTjSsF4XdX44r0WockcFAdIWiDugMsGkoEeSdgvo=",
+    "Apartment_ID": "A102",
+    "Building_ID": "B001",
+    "Floor": 1,
+    "NumberOfRooms": 2
+  }
+]

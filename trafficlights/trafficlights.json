@@ -1,0 +1,57 @@
+[
+  {
+    "deviceId": "trafficlight",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "ccktsjytCnA1MQYRCxa7Pll9swkiX1NufykAjeIK7CI="
+  },
+  {
+    "deviceId": "trafficlight2",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "JsdIGxJYrJPbhc+lEfX3lVqr5a7jtRu/lymk5FeBhUI="
+  },
+  {
+    "deviceId": "trafficlight3",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "e5pyPubc7+q0gu/saBhHhmrlSm2o8oZ6NQBqDyyUcFU="
+  },
+  {
+    "deviceId": "trafficlight4",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "EqUj5fUIvkCnoh0YVhAKDV5C75tsq5KKgcIw+jBzOvo="
+  },
+  {
+    "deviceId": "trafficlight5",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "xuTwRqI2DodxOGlGd9J+JvkcAkUmUkNSXuO4HLo+e7I="
+  },
+  {
+    "deviceId": "trafficlight6",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "0chln6FQ8B1Zb/xd2TIdsCcYFXyn3Hedu15PLFfoFpo="
+  },
+  {
+    "deviceId": "trafficlight7",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "rNTQpXIcMKw1pMQSH7pObvuMjl3pDgFHCBjO2MlJWNU="
+  },
+  {
+    "deviceId": "trafficlight8",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "W0sqHF985dQ7p/NcCrzxp2EUkYZe552z4n+mTYGic90="
+  },
+  {
+    "deviceId": "trafficlight9",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "MLe6sfYIBvFZsTL3lNaEEF9wvmOQiVJdUEEjltSaQLc="
+  },
+  {
+    "deviceId": "trafficlight10",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "87JlQlmyE6fP0BWr1580wDRPJ4ZTJ1NeDf9GQZ/0JfM="
+  },
+  {
+    "deviceId": "trafficlight11",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "KvhhzWwPU6zsfAeqYady3zbCXmR4W+SgdxkY/sdtE0c="
+  }
+]

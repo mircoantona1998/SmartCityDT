@@ -1,0 +1,53 @@
+version: "3.9"
+
+services:
+  streets:
+    build: ./streets
+    container_name: streets-sim
+    volumes:
+      - ./streets/devices.json:/usr/src/app/devices.json:ro
+    restart: unless-stopped
+
+  cameras:
+    build: ./cameras
+    container_name: building-cameras-sim
+    volumes:
+      - ./cameras/cameras.json:/usr/src/app/cameras.json:ro
+    restart: unless-stopped
+    
+  lamps:
+    build: ./lamps
+    container_name: lamps-sim
+    volumes:
+      - ./lamps/lamps.json:/usr/src/app/lamps.json:ro
+    restart: unless-stopped
+
+  trafficlights:
+    build: ./trafficlights
+    container_name: trafficlights-sim
+    volumes:
+      - ./trafficlights/trafficlights.json:/usr/src/app/trafficlights.json:ro
+    restart: unless-stopped
+
+  panels:
+    build: ./panels
+    container_name: panels-sim
+    volumes:
+      - ./panels/panels.json:/usr/src/app/panels.json:ro
+    restart: unless-stopped
+  
+  panelsLamp:
+    build: ./panelsLamp
+    container_name: panelsLamp-sim
+    volumes:
+      - ./panelsLamp/panels.json:/usr/src/app/panels.json:ro
+    restart: unless-stopped
+
+
+  building-apartments:
+    build: ./building-apartments
+    container_name: building-apartments-sim
+    volumes:
+      - ./building-apartments/building-apartments.json:/usr/src/app/building-apartments.json:ro
+    restart: unless-stopped
+

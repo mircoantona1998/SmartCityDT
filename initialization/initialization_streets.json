@@ -1,0 +1,72 @@
+[
+  {
+    "op": "remove",
+    "path": "/vehiclesOut"
+  },
+  {
+    "op": "remove",
+    "path": "/vehiclesIn"
+  },
+  {
+    "op": "remove",
+    "path": "/truckCount"
+  },
+  {
+    "op": "remove",
+    "path": "/carCount"
+  },
+  {
+    "op": "remove",
+    "path": "/busCount"
+  },
+  {
+    "op": "add",
+    "path": "/carCount_lane1",
+    "value": 1
+  },
+  {
+    "op": "add",
+    "path": "/carCount_lane2",
+    "value": 1
+  },
+  {
+    "op": "add",
+    "path": "/busCount_lane1",
+    "value": 1
+  },
+  {
+    "op": "add",
+    "path": "/busCount_lane2",
+    "value": 1
+  },
+  {
+    "op": "add",
+    "path": "/truckCount_lane1",
+    "value": 1
+  },
+  {
+    "op": "add",
+    "path": "/truckCount_lane2",
+    "value": 1
+  },
+  {
+    "op": "add",
+    "path": "/vehiclesIn_lane1",
+    "value": 1
+  },
+  {
+    "op": "add",
+    "path": "/vehiclesIn_lane2",
+    "value": 1
+  },
+  {
+    "op": "add",
+    "path": "/vehiclesOut_lane1",
+    "value": 1
+  },
+  {
+    "op": "add",
+    "path": "/vehiclesOut_lane2",
+    "value": 1
+  }
+]

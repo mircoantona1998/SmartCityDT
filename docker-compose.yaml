@@ -1,0 +1,143 @@
+version: "3.9"
+
+services:
+  streets:
+    build: ./streets
+    container_name: streets-sim
+    volumes:
+      - ./streets/devices.json:/usr/src/app/devices.json:ro
+    restart: unless-stopped
+
+  lamps:
+    build: ./lamps
+    container_name: lamps-sim
+    volumes:
+      - ./lamps/lamps.json:/usr/src/app/lamps.json:ro
+    restart: unless-stopped
+
+  trafficlights:
+    build: ./trafficlights
+    container_name: trafficlights-sim
+    volumes:
+      - ./trafficlights/trafficlights.json:/usr/src/app/trafficlights.json:ro
+    restart: unless-stopped
+
+  panelslamp:
+    build: ./panelslamp
+    container_name: panelslamp-sim
+    volumes:
+      - ./panelslamp/panels.json:/usr/src/app/panels.json:ro
+    restart: unless-stopped
+
+  cameras:
+    build: ./cameras
+    container_name: cameras-sim
+    volumes:
+      - ./cameras/cameras.json:/usr/src/app/cameras.json:ro
+    restart: unless-stopped
+
+  palazzo4:
+    build:
+      context: ./palazzo4             
+      dockerfile: Dockerfile
+    image: palazzo4:local
+    container_name: palazzo4
+    init: true
+    environment:
+      TZ: Europe/Rome
+      NODE_ENV: production
+    volumes:
+      - ./palazzo4/panels.json:/app/panels.json:ro
+      - ./palazzo4/apartments.json:/app/apartments.json:ro
+      - ./palazzo4/buildings.json:/app/buildings.json:ro
+    restart: "no"
+
+  palazzo:
+    build:
+      context: ./palazzo             
+      dockerfile: Dockerfile
+    image: palazzo:local
+    container_name: palazzo
+    init: true
+    environment:
+      TZ: Europe/Rome
+      NODE_ENV: production
+    volumes:
+      - ./palazzo/apartments.json:/app/apartments.json:ro
+      - ./palazzo/buildings.json:/app/buildings.json:ro
+    restart: "no"
+
+  palazzo2:
+    build:
+      context: ./palazzo2           
+      dockerfile: Dockerfile
+    image: palazzo2:local
+    container_name: palazzo2
+    init: true
+    environment:
+      TZ: Europe/Rome
+      NODE_ENV: production
+    volumes:
+      - ./palazzo2/apartments.json:/app/apartments.json:ro
+      - ./palazzo2/buildings.json:/app/buildings.json:ro
+    restart: "no"
+
+  palazzo3:
+    build:
+      context: ./palazzo3             
+      dockerfile: Dockerfile
+    image: palazzo3:local
+    container_name: palazzo3
+    init: true
+    environment:
+      TZ: Europe/Rome
+      NODE_ENV: production
+    volumes:
+      - ./palazzo3/apartments.json:/app/apartments.json:ro
+      - ./palazzo3/buildings.json:/app/buildings.json:ro
+    restart: "no"
+
+  palazzo5:
+    build:
+      context: ./palazzo5             
+      dockerfile: Dockerfile
+    image: palazzo5:local
+    container_name: palazzo5
+    init: true
+    environment:
+      TZ: Europe/Rome
+      NODE_ENV: production
+    volumes:
+      - ./palazzo5/apartments.json:/app/apartments.json:ro
+      - ./palazzo5/buildings.json:/app/buildings.json:ro
+    restart: "no"
+
+  palazzo6:
+    build:
+      context: ./palazzo6             
+      dockerfile: Dockerfile
+    image: palazzo6:local
+    container_name: palazzo6
+    init: true
+    environment:
+      TZ: Europe/Rome
+      NODE_ENV: production
+    volumes:
+      - ./palazzo6/apartments.json:/app/apartments.json:ro
+      - ./palazzo6/buildings.json:/app/buildings.json:ro
+    restart: "no"
+
+  palazzo7:
+    build:
+      context: ./palazzo7             
+      dockerfile: Dockerfile
+    image: palazzo7:local
+    container_name: palazzo7
+    init: true
+    environment:
+      TZ: Europe/Rome
+      NODE_ENV: production
+    volumes:
+      - ./palazzo7/apartments.json:/app/apartments.json:ro
+      - ./palazzo7/buildings.json:/app/buildings.json:ro
+    restart: "no"

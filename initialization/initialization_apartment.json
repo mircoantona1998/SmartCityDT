@@ -1,0 +1,15 @@
+[
+  {
+    "op": "remove",
+    "path": "/MoneySaving"
+  },
+  {
+    "op": "remove",
+    "path": "/EnergyProduction"
+  },
+  {
+    "op": "add",
+    "path": "/EnergyConsumptionCost",
+    "value": 1
+  }
+]

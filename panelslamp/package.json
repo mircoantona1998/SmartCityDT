@@ -1,0 +1,13 @@
+{
+  "name": "smartcity-simulator",
+  "version": "1.0.0",
+  "description": "Simulatore di dispositivi IoT per Smart City",
+  "main": "simulatorePannello.js",
+  "scripts": {
+    "start": "node simulatorePannello.js"
+  },
+  "dependencies": {
+    "azure-iot-device": "^1.16.0",
+    "azure-iot-device-mqtt": "^1.16.0"
+  }
+}

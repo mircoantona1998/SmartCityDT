@@ -1,0 +1,13 @@
+[
+  {
+    "op": "add",
+    "path": "/stato_lampione",
+    "value": "1"
+  },
+  {
+    "op": "add",
+    "path": "/OperatingHours",
+    "value": 1
+  }
+  
+]

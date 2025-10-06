@@ -1,0 +1,66 @@
+{
+ "@id": "dtmi:example:PalazzoProduzione;1",
+ "@type": "Interface",
+ "@context": "dtmi:dtdl:context;2",
+ "displayName": "Palazzo con Produzione",
+ "extends": [
+  "dtmi:example:Palazzo;1"
+ ],
+ "contents": [
+  {
+   "@type": "Property",
+   "name": "EnergyProduction_Palace",
+   "schema": "double",
+   "displayName": "Produzione Energetica (kWh)",
+   "description": "Produzione totale del palazzo."
+  },
+  {
+   "@type": "Property",
+   "name": "SelfConsumption_Palace",
+   "schema": "double",
+   "displayName": "Autoconsumo (kWh)",
+   "description": "Quota di consumo coperta direttamente dalla produzione."
+  },
+  {
+   "@type": "Property",
+   "name": "EnergySalesRevenue",
+   "schema": "string",
+   "displayName": "Ricavo da vendita di energia (€)",
+   "description": "Ricavo da vendita energia prodotto e non autoconsumata"
+  },
+  {
+   "@type": "Property",
+   "name": "MoneySavingSumOfApts_Palace",
+   "schema": "string",
+   "displayName": "Risparmio da autoconsumo (€)",
+   "description": "Risparmio dall'aver consumato energia prodotta."
+  },
+  {
+   "@type": "Telemetry",
+   "name": "InstantPowerPV_Palace",
+   "schema": "double",
+   "displayName": "Potenza FV Istantanea (kW)",
+   "description": "Potenza istantanea generata dall'impianto fotovoltaico del palazzo."
+  },
+  {
+   "@type": "Property",
+   "name": "InverterEfficiency_Palace",
+   "schema": "double",
+   "displayName": "Efficienza Inverter (%)",
+   "description": "Efficienza corrente dell'inverter (0-100)."
+  },
+  {
+   "@type": "Property",
+   "name": "SolarPanelCount_Palace",
+   "schema": "integer",
+   "displayName": "Numero Pannelli",
+   "description": "Numero totale di moduli fotovoltaici installati."
+  },
+  {
+   "@type": "Relationship",
+   "name": "haPanel",
+   "target": "dtmi:example:SolarPanel;1",
+   "displayName": "Ha Pannello FV"
+  }
+ ]
+}

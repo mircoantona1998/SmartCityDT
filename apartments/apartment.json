@@ -1,0 +1,87 @@
+{
+ "@id": "dtmi:example:Appartamento;1",
+ "@type": "Interface",
+ "@context": "dtmi:dtdl:context;2",
+ "displayName": "Appartamento",
+ "contents": [
+  {
+   "@type": "Property",
+   "name": "Apartment_ID",
+   "schema": "string",
+   "displayName": "ID Appartamento"
+  },
+  {
+   "@type": "Property",
+   "name": "Building_ID",
+   "schema": "string",
+   "displayName": "ID Palazzo"
+  },
+  {
+   "@type": "Property",
+   "name": "Floor",
+   "schema": "integer",
+   "displayName": "Piano"
+  },
+  {
+   "@type": "Property",
+   "name": "NumberOfRooms",
+   "schema": "integer",
+   "displayName": "Numero di Stanze"
+  },
+  {
+   "@type": "Property",
+   "name": "PricePerKWh",
+   "schema": "double",
+   "displayName": "Prezzo Energia (€/kWh)",
+   "description": "Prezzo dell'energia per la stima dei costi."
+  },
+  {
+   "@type": "Property",
+   "name": "EnergyConsumption",
+   "schema": "double",
+   "displayName": "Consumo Energetico (kWh)",
+   "description": "Consumo energetico cumulato o istantaneo a seconda dell'uso del gemello."
+  },
+  {
+   "@type": "Property",
+   "name": "EnergyConsumptionCost",
+   "schema": "double",
+   "displayName": "Costo Energia Consumata (€)",
+   "description": "Calcolato come Prezzo Energia × Consumo Energetico."
+  },
+  {
+   "@type": "Property",
+   "name": "Temperature",
+   "schema": "double",
+   "displayName": "Temperatura Interna (°C)"
+  },
+  {
+   "@type": "Property",
+   "name": "Humidity",
+   "schema": "double",
+   "displayName": "Umidità Interna (%)"
+  },
+  {
+   "@type": "Property",
+   "name": "Occupancy",
+   "schema": {
+    "@type": "Enum",
+    "valueSchema": "string",
+    "enumValues": [
+     {
+      "name": "Occupato",
+      "displayName": "Occupato",
+      "enumValue": "Occupato"
+     },
+     {
+      "name": "Vuoto",
+      "displayName": "Vuoto",
+      "enumValue": "Vuoto"
+     }
+    ]
+   },
+   "displayName": "Occupazione",
+   "description": "Stato di occupazione dell'appartamento."
+  }
+ ]
+}

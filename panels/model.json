@@ -1,0 +1,94 @@
+{
+ "@id": "dtmi:example:SolarPanel;1",
+ "@type": "Interface",
+ "@context": "dtmi:dtdl:context;2",
+ "displayName": "Solar Panel",
+  "contents": [
+    { "@type": "Property", "name": "Building_ID", "schema": "string", "displayName": "ID/Nome edificio", "writable": true },
+    { "@type": "Property", "name": "Building_Address", "schema": "string", "displayName": "Indirizzo edificio", "writable": true },
+    { "@type": "Property", "name": "Building_Coordinates", "schema": { "@type": "Object", "fields": [
+      { "name": "Latitude", "schema": "double" },
+      { "name": "Longitude", "schema": "double" }
+    ]}, "displayName": "Coordinate GPS edificio", "writable": true },
+    { "@type": "Property", "name": "ConstructionYear", "schema": "integer", "displayName": "Anno costruzione", "writable": true },
+    { "@type": "Property", "name": "EnergyClass", "schema": "string", "displayName": "Classe energetica", "writable": true },
+    { "@type": "Property", "name": "BuildingGeometry3D", "schema": "string", "displayName": "Geometria 3D (volumi, tetto, ombre)", "writable": true },
+
+    { "@type": "Property", "name": "Roof_Azimuth", "schema": "double", "displayName": "Orientamento tetto (azimut)", "writable": true },
+    { "@type": "Property", "name": "Roof_AvailableArea", "schema": "double", "displayName": "Superficie disponibile (m²)", "writable": true },
+    { "@type": "Property", "name": "Roof_LoadCapacity", "schema": "double", "displayName": "Portata strutturale (kg/m²)", "writable": true },
+
+    { "@type": "Property", "name": "Field_Layout", "schema": "string", "displayName": "Layout stringhe e moduli", "writable": true },
+    { "@type": "Property", "name": "Mounting_Type", "schema": "string", "displayName": "Tipologia fissaggio (zavorra, ancoraggio)", "writable": true },
+
+    { "@type": "Property", "name": "Panel_ID", "schema": "string", "displayName": "ID pannello", "writable": true },
+    { "@type": "Property", "name": "Panel_Model", "schema": "string", "displayName": "Modello pannello", "writable": true },
+    { "@type": "Property", "name": "Panel_Manufacturer", "schema": "string", "displayName": "Produttore pannello", "writable": true },
+    { "@type": "Property", "name": "NominalPower_Wp", "schema": "double", "displayName": "Potenza nominale (Wp)", "writable": true },
+    { "@type": "Property", "name": "STC_Efficiency", "schema": "double", "displayName": "Efficienza STC (%)", "writable": true },
+    { "@type": "Property", "name": "Temperature_Coeff", "schema": "double", "displayName": "Coefficiente di temperatura", "writable": true },
+    { "@type": "Property", "name": "Panel_Dimensions", "schema": { "@type": "Object", "fields": [
+      { "name": "Width", "schema": "double" },
+      { "name": "Height", "schema": "double" },
+      { "name": "Weight", "schema": "double" }
+    ]}, "displayName": "Dimensioni e peso modulo", "writable": true },
+    { "@type": "Property", "name": "Serial_Number", "schema": "string", "displayName": "Serial number", "writable": true },
+
+    { "@type": "Property", "name": "Inverter_Model", "schema": "string", "displayName": "Modello inverter", "writable": true },
+    { "@type": "Property", "name": "Inverter_Power_kW", "schema": "double", "displayName": "Potenza nominale inverter (kW)", "writable": true },
+    { "@type": "Property", "name": "Inverter_MPPTs", "schema": "integer", "displayName": "Numero MPPT", "writable": true },
+    { "@type": "Property", "name": "Inverter_Efficiency", "schema": "double", "displayName": "Efficienza inverter", "writable": true },
+    { "@type": "Property", "name": "String_MPPT_Connection", "schema": "string", "displayName": "Collegamenti stringhe → MPPT", "writable": true },
+
+    { "@type": "Property", "name": "Sensors", "schema": { "@type": "Object", "fields": [
+      { "name": "Type", "schema": "string" },
+      { "name": "Position", "schema": { "@type": "Object", "fields": [
+        { "name": "X", "schema": "double" },
+        { "name": "Y", "schema": "double" },
+        { "name": "Z", "schema": "double" }
+      ]}},
+      { "name": "Accuracy", "schema": "double" }
+    ]}, "displayName": "Sensori", "writable": true },
+
+    { "@type": "Property", "name": "LocalWeather", "schema": { "@type": "Object", "fields": [
+      { "name": "Irradiance_W_m2", "schema": "double" },
+      { "name": "AirTemperature_C", "schema": "double" },
+      { "name": "WindSpeed_m_s", "schema": "double" }
+    ]}, "displayName": "Meteo locale", "writable": true },
+
+    { "@type": "Property", "name": "Inverter_InstantPower_kW", "schema": "double", "displayName": "Potenza AC istantanea", "writable": true },
+    { "@type": "Property", "name": "Inverter_EnergyProduced_kWh", "schema": "double", "displayName": "Energia prodotta", "writable": true },
+    { "@type": "Property", "name": "Inverter_Status", "schema": "string", "displayName": "Stato/Fault", "writable": true },
+    { "@type": "Property", "name": "Inverter_Efficiency", "schema": "double", "displayName": "Efficienza inverter", "writable": true },
+    { "@type": "Property", "name": "Inverter_Temperature_C", "schema": "double", "displayName": "Temperatura interna inverter", "writable": true },
+
+    { "@type": "Property", "name": "String_DC_Voltage", "schema": "double", "displayName": "Tensione DC stringa", "writable": true },
+    { "@type": "Property", "name": "String_DC_Current", "schema": "double", "displayName": "Corrente DC stringa", "writable": true },
+
+    { "@type": "Property", "name": "Panel_InstantPower_W", "schema": "double", "displayName": "Potenza per modulo", "writable": true },
+    { "@type": "Property", "name": "Panel_Temperature_C", "schema": "double", "displayName": "Temperatura modulo", "writable": true },
+
+    { "@type": "Property", "name": "Performance_Ratio", "schema": "double", "displayName": "Performance Ratio (%)", "writable": true },
+    { "@type": "Property", "name": "Specific_Yield_kWh_kWp", "schema": "double", "displayName": "Specific Yield", "writable": true },
+    { "@type": "Property", "name": "Plant_Availability", "schema": "double", "displayName": "Disponibilità impianto (%)", "writable": true },
+    { "@type": "Property", "name": "CO2_Avoided_kg", "schema": "double", "displayName": "CO₂ evitata (kg)", "writable": true },
+    { 
+      "@type": "Property",
+      "name": "CO2_SavingFactor",
+      "schema": "double",
+      "displayName": "Fattore risparmio CO₂",
+      "description": "Fattore moltiplicativo (default 1.0) applicato alla CO₂ evitata per normalizzazioni o incentivi.",
+      "writable": true
+    },
+    {
+      "@type": "Command",
+      "name": "ResetDirtyStatus",
+      "description": "Resets the dirt level to zero and sets the maintenance status to 'Regular'"
+    },
+    {
+      "@type": "Command",
+      "name": "RequestMaintenance",
+      "description": "Sets the maintenance status to 'Required'."
+    }
+  ]
+}

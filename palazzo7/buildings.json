@@ -1,0 +1,12 @@
+[
+    {
+    "deviceId": "palazzo7",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "zw0Xd0OTl2UPDytG49vnKCvL997bxY0DJpuqKQVELo8=",
+    "modelId": "dtmi:example:Palazzo;1",
+    "Building_ID": "B001",
+    "Address": "Via Roma 10",
+    "Floors": 5,
+    "ConstructionYear": 1990
+  }
+]

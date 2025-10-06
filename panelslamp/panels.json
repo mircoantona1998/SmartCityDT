@@ -1,0 +1,38 @@
+[
+  {
+    "deviceId": "panel",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "S0A5VqbaLlTsxeztLJxa2GPQmbVwLGWgw/wp+PUO4Eg="
+  
+  },
+  {
+    "deviceId": "panel2",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "ZVmFkt3dTYsAoTzzKxlsMsf0xO972CVwV2uiRQPzeig="
+    
+
+  },
+  {
+    "deviceId": "panel3",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "bKNfRkVP+JjaeJ0SsSHFY7bOv63aLbp9o9Hku4VP4wA="
+  },
+  {
+    "deviceId": "panel4",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "O/6+LJZSPixtY2Fwn4vcdQ6F9R1mITHmbxG0NbNqwPU="
+   
+  },
+  {
+    "deviceId": "panel5",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "nrGkAyWIKAvoYZFJvqrHJjCSr4GAx6uCa+1g2w3nCAo="
+    
+  },
+  {
+    "deviceId": "panel6",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "5N6YFDVQnW560CzIyaT8K7/XpyNX0ycA2aTLWceiDRU="
+  
+  }
+]

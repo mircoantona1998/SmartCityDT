@@ -1,0 +1,28 @@
+[
+  {
+    "deviceId": "appartamento9",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "USy7iy5FMm4GAJHdvNrWlPmKpvI+QSmsG6PtoY/GBgs=",
+    "Apartment_ID": "A201",
+    "Building_ID": "B002",
+    "Floor": 2,
+    "NumberOfRooms": 4
+  },  {
+    "deviceId": "appartamento10",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "xpdrAEJ248s48Eyz3GHOU0XG1okGVbnonyHzdRGHVo8=",
+    "Apartment_ID": "A101",
+    "Building_ID": "B001",
+    "Floor": 1,
+    "NumberOfRooms": 3
+  },
+  {
+    "deviceId": "appartamento11",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "PZ1XMyYT62Q/qHLm2Flr8+55gLVR2xGDW0bf6aECFhg=",
+    "Apartment_ID": "A102",
+    "Building_ID": "B001",
+    "Floor": 1,
+    "NumberOfRooms": 2
+  }
+]

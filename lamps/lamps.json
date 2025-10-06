@@ -1,0 +1,37 @@
+[
+  {
+    "deviceId": "streetlamp",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "SuuByPXqfP9E1w5qqSGPcYjwfBJkxmD7COWMzoIsSa4="
+  },
+  {
+    "deviceId": "streetlamp2",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "aE5ZlUOP5eXyfUyfhPUwSb8/tqxaAVIJqQb3y1OJPYw="
+  },
+  {
+    "deviceId": "streetlamp3",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "ynXWYxy/djIvqX5dLefz250iRUpmMwCMJw86jg35S4o="
+  },
+  {
+    "deviceId": "streetlamp4",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "+at+ZtLKItunk/WuAuyV0Q/8iS38TvKwuuSIZnXN7+U="
+  },
+  {
+    "deviceId": "streetlamp5",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "AxyfPRG2GKmBpWx27at7idaWRXdQLVio0tQ6AbcF7Eo="
+  },
+  {
+    "deviceId": "streetlamp6",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "4+5RBm/BohVqtJdTXCGJiebRz3iPHlemF6hgqdNGfhk="
+  },
+  {
+    "deviceId": "streetlamp7",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "ubCBjbdZTiZTgSMkbMs4l+oozx5XAetq1vllIRzR1e8="
+  }
+]

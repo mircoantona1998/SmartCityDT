@@ -1,0 +1,37 @@
+ [
+  {
+    "op": "add",
+    "path": "/Telecamera_ID",
+    "value": "1"
+  },
+  {
+    "op": "add",
+    "path": "/DetectedObjects",
+    "value": 1
+  },
+  {
+    "op": "add",
+    "path": "/DetectedPeople",
+    "value": 1
+  },
+  {
+    "op": "add",
+    "path": "/Location",
+    "value": "1"
+  },
+  {
+    "op": "add",
+    "path": "/Status",
+    "value": "1"
+  },
+  {
+    "op": "add",
+    "path": "/Uptime",
+    "value": 1
+  },
+  {
+    "op": "add",
+    "path": "/DetectedVehicles",
+    "value": 1
+  }
+]

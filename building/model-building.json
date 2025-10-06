@@ -1,0 +1,73 @@
+{
+ "@id": "dtmi:example:Palazzo;1",
+ "@type": "Interface",
+ "@context": "dtmi:dtdl:context;2",
+ "displayName": "Palazzo",
+ "contents": [
+  {
+   "@type": "Property",
+   "name": "Palazzo_ID_Palace",
+   "schema": "string",
+   "displayName": "ID Palazzo"
+  },
+  {
+   "@type": "Property",
+   "name": "Address_Palace",
+   "schema": "string",
+   "displayName": "Indirizzo"
+  },
+  {
+   "@type": "Property",
+   "name": "Floors_Palace",
+   "schema": "integer",
+   "displayName": "Numero Piani"
+  },
+  {
+   "@type": "Property",
+   "name": "ConstructionYear_Palace",
+   "schema": "integer",
+   "displayName": "Anno di Costruzione"
+  },
+  {
+   "@type": "Property",
+   "name": "PricePerKWh_Palace",
+   "schema": "double",
+   "displayName": "Prezzo Energia (€/kWh)",
+   "description": "Prezzo di acquisto dell'energia dalla rete."
+  },
+  {
+   "@type": "Property",
+   "name": "EnergyConsumption_Palace",
+   "schema": "double",
+   "displayName": "Consumo Energetico (kWh)",
+   "description": "Consumo totale del palazzo (cumulato o per finestra temporale)."
+  },
+  {
+   "@type": "Property",
+   "name": "EnergyPurchaseCost_Palace",
+   "schema": "string",
+   "displayName": "Costo Acquisto Energia (€)",
+   "description": "Costo dell'energia effettivamente acquistata dalla rete."
+  },
+  {
+   "@type": "Property",
+   "name": "TemperatureAvg_Palace",
+   "schema": "double",
+   "displayName": "Temperatura Media (°C)",
+   "description": "Media Palazzo."
+  },
+  {
+   "@type": "Property",
+   "name": "HumidityAvg_Palace",
+   "schema": "double",
+   "displayName": "Umidità Media (%)",
+   "description": "Media Palazzo."
+  },
+  {
+   "@type": "Relationship",
+   "name": "haAppartamento",
+   "target": "dtmi:example:Appartamento;1",
+   "displayName": "Ha Appartamento"
+  }
+ ]
+}

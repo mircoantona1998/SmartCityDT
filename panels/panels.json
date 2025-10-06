@@ -1,0 +1,12 @@
+[
+   {
+    "deviceId": "panel7",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "SM2TGv70nmieNRdzIuXAIZVTZ03kQ8nWHv1d/KUla6Q="
+  },
+   {
+    "deviceId": "panel8",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "f4wOmOk4SorUh5R2TKNyAQr/ZNitOtn2DCPCF7D5UpU="
+  }
+]

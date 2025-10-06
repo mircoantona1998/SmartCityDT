@@ -1,0 +1,13 @@
+{
+  "name": "smartcity-simulator",
+  "version": "1.0.0",
+  "description": "Simulatore di dispositivi IoT per Smart City",
+  "main": "simulatore_dati_lampione.js",
+  "scripts": {
+    "start": "node simulatore_dati_lampione.js"
+  },
+  "dependencies": {
+    "azure-iot-device": "^1.16.0",
+    "azure-iot-device-mqtt": "^1.16.0"
+  }
+}

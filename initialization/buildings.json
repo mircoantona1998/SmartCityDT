@@ -1,0 +1,65 @@
+[
+  {
+    "deviceId": "palazzo",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "yxAhsyQhzOGSxrdaPtcn5FxRk7vOME9qN7jAcRdH/+4=",
+    "Building_ID": "B001",
+    "Address": "Via Roma 10",
+    "Floors": 5,
+    "ConstructionYear": 1990
+  },
+  {
+    "deviceId": "palazzo2",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "229C+6Jbzec+IKk4ts2lVq6Q6uoKEvGOo8gFGGXoIQI=",
+    "Building_ID": "B002",
+    "Address": "Piazza Garibaldi 5",
+    "Floors": 8,
+    "ConstructionYear": 2005
+  },  
+  {
+    "deviceId": "palazzo3",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "iMxzbwJAF5/l8v+8GqKE7Az49UE8JWPajjPreQElLdI=",
+    "Building_ID": "B001",
+    "Address": "Via Roma 10",
+    "Floors": 5,
+    "ConstructionYear": 1990
+  },
+  {
+    "deviceId": "palazzo4",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "bn7jPD0FIEOqjZLyPVrTaXWySgrDu85odJAtl41sVW0=",
+    "Building_ID": "B002",
+    "Address": "Piazza Garibaldi 5",
+    "Floors": 8,
+    "ConstructionYear": 2005
+  },
+    {
+    "deviceId": "palazzo5",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "K3Q1GSjssXWNqkktNFgzNVXPzBC5oTh9ZK1r+CwMdRc=",
+    "Building_ID": "B001",
+    "Address": "Via Roma 10",
+    "Floors": 5,
+    "ConstructionYear": 1990
+  },
+  {
+    "deviceId": "palazzo6",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "Mt1CLF4JkiEFSLbJ+87h/pKB1Eepik3P7UIgZOMHhFs=",
+    "Building_ID": "B002",
+    "Address": "Piazza Garibaldi 5",
+    "Floors": 8,
+    "ConstructionYear": 2005
+  },
+    {
+    "deviceId": "palazzo7",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "zw0Xd0OTl2UPDytG49vnKCvL997bxY0DJpuqKQVELo8=",
+    "Building_ID": "B001",
+    "Address": "Via Roma 10",
+    "Floors": 5,
+    "ConstructionYear": 1990
+  }
+]

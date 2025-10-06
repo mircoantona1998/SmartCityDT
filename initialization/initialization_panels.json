@@ -1,0 +1,22 @@
+[
+  {
+    "op": "add",
+    "path": "/EnergyProduced_kWh",
+    "value": 1
+  },
+  {
+    "op": "add",
+    "path": "/Panel_ID",
+    "value": "1"
+  },
+  {
+    "op": "add",
+    "path": "/Battery_SoC_Percent",
+    "value": 1
+  },
+  {
+    "op": "add",
+    "path": "/Panel_Status",
+    "value": "On"
+  }
+]

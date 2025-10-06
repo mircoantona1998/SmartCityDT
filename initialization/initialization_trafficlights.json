@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/stato_semaforo",
+    "value": "1"
+  }
+]

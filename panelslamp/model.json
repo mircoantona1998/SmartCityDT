@@ -1,0 +1,63 @@
+{
+  "@id": "dtmi:example:SolarPanelNearStreetlamp;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "displayName": "Pannello solare per lampione",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "Panel_ID",
+      "schema": "string",
+      "displayName": "ID pannello",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "name": "Battery_SoC_Percent",
+      "schema": "double",
+      "displayName": "Stato di carica batteria (%)",
+      "description": "Percentuale di carica residua (0-100).",
+      "writable": true
+    },
+    {
+      "@type": "Telemetry",
+      "name": "InstantPower_W",
+      "schema": "double",
+      "displayName": "Potenza istantanea (W)",
+      "description": "Potenza attualmente erogata dal pannello."
+    },
+    {
+      "@type": "Property",
+      "name": "EnergyProduced_kWh",
+      "schema": "double",
+      "displayName": "Energia prodotta (kWh)",
+      "description": "Energia prodotta (cumulata o su finestra temporale, in base all’uso).",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "name": "Panel_Status",
+      "displayName": "Stato pannello",
+      "schema": {
+        "@type": "Enum",
+        "valueSchema": "string",
+        "enumValues": [
+          { "name": "On", "displayName": "In Produzione", "enumValue": "On" },
+          { "name": "Standby", "displayName": "Standby", "enumValue": "Standby" },
+          { "name": "Off", "displayName": "Spento", "enumValue": "Off" },
+          { "name": "Fault", "displayName": "Guasto", "enumValue": "Fault" }
+        ]
+      },
+      "writable": true
+    },
+        { "@type": "Property", "name": "CO2_Avoided_kg_panelLamp", "schema": "double", "displayName": "CO₂ evitata (kg)", "writable": true },
+    { 
+      "@type": "Property",
+      "name": "CO2_SavingFactor_panelLamp",
+      "schema": "double",
+      "displayName": "Fattore risparmio CO₂",
+      "description": "Fattore moltiplicativo (default 1.0) applicato alla CO₂ evitata per normalizzazioni o incentivi.",
+      "writable": true
+    }
+  ]
+}

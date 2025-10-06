@@ -1,0 +1,12 @@
+[
+  {
+    "deviceId": "palazzo2",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "229C+6Jbzec+IKk4ts2lVq6Q6uoKEvGOo8gFGGXoIQI=",
+    "modelId": "dtmi:example:Palazzo;1",
+    "Building_ID": "B002",
+    "Address": "Piazza Garibaldi 5",
+    "Floors": 8,
+    "ConstructionYear": 2005
+  }
+]

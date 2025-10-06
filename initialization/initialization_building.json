@@ -1,0 +1,41 @@
+[
+  {
+    "op": "remove",
+    "path": "/Humidity_Palace"
+  },
+  {
+    "op": "remove",
+    "path": "/Temperature_Palace"
+  },
+  {
+    "op": "remove",
+    "path": "/MoneySavingSumOfApts_Palace"
+  },
+  {
+    "op": "remove",
+    "path": "/MoneySaving_Palace"
+  },
+  {
+    "op": "remove",
+    "path": "/EnergyProduction_Palace"
+  },
+  {
+    "op": "remove",
+    "path": "/WaterUsage_Palace"
+  },
+  {
+    "op": "add",
+    "path": "/EnergyPurchaseCost_Palace",
+    "value": 1
+  },
+  {
+    "op": "add",
+    "path": "/TemperatureAvg_Palace",
+    "value": 1
+  },
+  {
+    "op": "add",
+    "path": "/HumidityAvg_Palace",
+    "value": 1
+  }
+]

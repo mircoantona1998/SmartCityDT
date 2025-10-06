@@ -1,0 +1,131 @@
+{
+  "@id": "dtmi:example:Street;1",
+  "@type": "Interface",
+  "displayName": "Street",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "nome",
+      "schema": "string",
+      "description": "Nome strada",
+      "displayName": "Nome strada"
+    },
+
+    {
+      "@type": "Property",
+      "name": "Larghezza",
+      "schema": "integer",
+      "description": "Larghezza della strada",
+      "displayName": "Larghezza della strada"
+    },
+    {
+      "@type": "Property",
+      "name": "Corsie",
+      "schema": "integer",
+      "description": "Numero di Corsie",
+      "displayName": "Numero di Corsie"
+    },
+
+    {
+      "@type": "Property",
+      "name": "truckCount_lane1",
+      "schema": "integer",
+      "description": "Numero di camion presenti sulla corsia 1",
+      "displayName": "Camion (Corsia 1)"
+    },
+    {
+      "@type": "Property",
+      "name": "truckCount_lane2",
+      "schema": "integer",
+      "description": "Numero di camion presenti sulla corsia 2",
+      "displayName": "Camion (Corsia 2)"
+    },
+
+    {
+      "@type": "Property",
+      "name": "carCount_lane1",
+      "schema": "integer",
+      "description": "Numero di automobili presenti sulla corsia 1",
+      "displayName": "Auto (Corsia 1)"
+    },
+    {
+      "@type": "Property",
+      "name": "carCount_lane2",
+      "schema": "integer",
+      "description": "Numero di automobili presenti sulla corsia 2",
+      "displayName": "Auto (Corsia 2)"
+    },
+
+    {
+      "@type": "Property",
+      "name": "busCount_lane1",
+      "schema": "integer",
+      "description": "Numero di autobus presenti sulla corsia 1",
+      "displayName": "Autobus (Corsia 1)"
+    },
+    {
+      "@type": "Property",
+      "name": "busCount_lane2",
+      "schema": "integer",
+      "description": "Numero di autobus presenti sulla corsia 2",
+      "displayName": "Autobus (Corsia 2)"
+    },
+
+    {
+      "@type": "Property",
+      "name": "vehiclesIn_lane1",
+      "schema": "integer",
+      "description": "Numero di veicoli entrati nella corsia 1",
+      "displayName": "Veicoli entrati (Corsia 1)"
+    },
+    {
+      "@type": "Property",
+      "name": "vehiclesIn_lane2",
+      "schema": "integer",
+      "description": "Numero di veicoli entrati nella corsia 2",
+      "displayName": "Veicoli entrati (Corsia 2)"
+    },
+
+    {
+      "@type": "Property",
+      "name": "vehiclesOut_lane1",
+      "schema": "integer",
+      "description": "Numero di veicoli usciti dalla corsia 1",
+      "displayName": "Veicoli usciti (Corsia 1)"
+    },
+    {
+      "@type": "Property",
+      "name": "vehiclesOut_lane2",
+      "schema": "integer",
+      "description": "Numero di veicoli usciti dalla corsia 2",
+      "displayName": "Veicoli usciti (Corsia 2)"
+    },
+
+    {
+      "@type": "Relationship",
+      "name": "haSemaforo",
+      "target": "dtmi:example:Trafficlight;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "haLampione",
+      "target": "dtmi:example:Streetlamp;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "haTelecamera",
+      "target": "dtmi:example:Telecamera;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "haPalazzo",
+      "target": "dtmi:example:Palazzo;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "haPanel",
+      "target": "dtmi:example:SolarPanel;1"
+    }
+  ]
+}

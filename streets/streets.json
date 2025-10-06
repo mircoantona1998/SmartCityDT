@@ -1,0 +1,57 @@
+[
+  {
+    "deviceId": "street",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "K07ZSZrYZO4CsedkdvF9YxF5IICXzt6Ub1rgEhRbyqY="
+  },
+  {
+    "deviceId": "street2",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "x4IF8D5hjpUqw/x+5lBnEb4qm9f/XHEr+0zgDVXr4g0="
+  },
+  {
+    "deviceId": "street3",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "lpPfmHY6ramLU/gXWQTB/DlsXrLoqptU8xPQ/piAZp0="
+  },
+  {
+    "deviceId": "street4",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "4i5g+mWmGstNNx7iJ3KcLxV4BO/Y80Mzxb+pBRw+3l0="
+  },
+  {
+    "deviceId": "street5",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "r3EoXqudWCjRsrfuLwUav6/s4LSMpT4D3P8DSibKLkk="
+  },
+  {
+    "deviceId": "street6",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "4LQQ3yA+25O7XER/4ZmhraE3d4qNe4JJCO0ZvzZhafk="
+  },
+  {
+    "deviceId": "street7",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "9JSYGKVP/8lgEugvSXLQQP1hoXCvvs0RqZ/9ngaPCF4="
+  },
+  {
+    "deviceId": "street8",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "iWBIaNtG5ijatQgwmlmCb/Q0yi32Jz1twji2RGaLiFI="
+  },
+  {
+    "deviceId": "street9",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "VNOyCmQbx3hCD1t8UXslsIU9ax6PXR2j6Ak9CQvJ1+w="
+  },
+  {
+    "deviceId": "street10",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "+GPy9WJ5eK8GgniRehL/8E0VGXitXrbR5PSh58ukKOY="
+  },
+  {
+    "deviceId": "street11",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "otQW1Yyaigz8PF9O8WSxMRxbVTtEAOqgYbmZyq6hS90="
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "deviceId": "telecamera",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "0lHf666rcwORNnyctxY6sAJs4GC0s3WCrRtfuPv/US8="
+  },
+  {
+    "deviceId": "telecamera2",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "sUqoSX9+yetaqa2Is3N2SrgIaYHt/sBRWBP92USgfMQ="
+  },
+  {
+    "deviceId": "telecamera3",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "2BVZpwbKJLL2rVxbX0vJavTWqCAfBSKA7o3dtZPNwdM="
+  },
+  {
+    "deviceId": "telecamera4",
+    "hostName": "SmartCity.azure-devices.net",
+    "sharedAccessKey": "CD54XLTyzJlDJ4viqEXvcg+/spSWk2vKST8tqBbDbvI="
+  }
+]

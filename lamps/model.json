@@ -1,0 +1,35 @@
+{
+  "@id": "dtmi:example:Streetlamp;1",
+  "@type": "Interface",
+  "displayName": "Streetlamp",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "stato_lampione",
+      "schema": {
+        "@type": "Enum",
+        "valueSchema": "integer",
+        "enumValues": [
+          { "name": "Acceso", "enumValue": 1 },
+          { "name": "Spento", "enumValue": 2 }
+        ]
+      }
+    },
+    {
+      "@type": "Property",
+      "name": "OperatingHours",
+      "schema": "double",
+      "displayName": "Ore di attività",
+      "description": "Numero di ore complessive in cui il lampione è stato acceso.",
+      "writable": true
+    },
+    {
+      "@type": "Relationship",
+      "name": "nearStreetlamp",
+      "displayName": "Vicino a Lampione",
+      "target": "dtmi:example:SolarPanelNearStreetlamp;1",
+      "description": "Relazione al pannello solare vicino al lampione."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "op": "replace",
+    "path": "/Battery_SoC_Percent",
+    "value": 2
+  },
+  {
+    "op": "replace",
+    "path": "/EnergyProduced_kWh",
+    "value": 2
+  },
+  {
+    "op": "add",
+    "path": "/CO2_Avoided_kg_panelLamp",
+    "value": 2
+  },
+  {
+    "op": "add",
+    "path": "/CO2_SavingFactor_panelLamp",
+    "value": 0.27
+  },
+  {
+    "op": "add",
+    "path": "/Panel_ID",
+    "value": "1"
+  },
+  {
+    "op": "add",
+    "path": "/Panel_Status",
+    "value": "On"
+  }
+]
